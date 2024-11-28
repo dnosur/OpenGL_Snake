@@ -192,7 +192,7 @@ void MainWindow::Initialize()
     road = new Road(
         this,
         TinyXml::LoadMap(
-            "D:/Programming/C++/OpenGL_Snake/OpenGL_Snake/Dodge/maps/map1.tmx",
+            "Dodge/maps/map1.tmx",
             "Road"
         ),
         Coord(150, 50)
