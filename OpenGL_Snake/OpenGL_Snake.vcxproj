@@ -114,7 +114,7 @@
       <AdditionalDependencies>glfw3.lib;opengl32.lib;user32.lib;gdi32.lib;shell32.lib;freeglut.lib;OpenAL32.lib;sndfile.lib;tinyxml2.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "D:\VisualStudio\ide\VC\Auxiliary\VS\bin\x64" "$(OutDir)"</Command>
+      <Command>copy "$(CurrentVsInstallRoot)\VC\Auxiliary\VS\bin\x64" "$(OutDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
