@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+v17
+x64
+vcpkg_installed
+
+background obstacles
+
+*.vs
+*.TMP
+*.vsidx
