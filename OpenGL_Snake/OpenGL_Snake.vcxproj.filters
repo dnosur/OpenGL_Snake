@@ -120,12 +120,6 @@
     <ClCompile Include="Dodge\tiny\Tile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Dodge\tiny\ObjectGroup.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Dodge\tiny\ObjectGroupObj.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Dodge\tiny\TinyClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -154,9 +148,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Dodge\animator\SpriteAnimationController.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Content\Snake\SnakeBody.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Content\Apples\Apple.cpp">

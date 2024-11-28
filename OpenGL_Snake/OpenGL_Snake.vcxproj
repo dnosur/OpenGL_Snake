@@ -104,13 +104,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;NDEBUG;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Programming\C++\OpenGL_Snake\vcpkg_installed\x64-windows\include;D:\Programming\C++\OpenGL_Snake\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(MSBuildStartupDirectory)\include;$(MSBuildStartupDirectory)\vcpkg_installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Programming\C++\OpenGL_Snake\lib-vc2022;D:\Programming\C++\OpenGL_Snake\vcpkg_installed\x64-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(MSBuildStartupDirectory)\lib-vc2022;$(MSBuildStartupDirectory)\vcpkg_installed\x64-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>glfw3.lib;opengl32.lib;user32.lib;gdi32.lib;shell32.lib;freeglut.lib;OpenAL32.lib;sndfile.lib;tinyxml2.lib;freetype.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
@@ -172,8 +172,6 @@
     <ClCompile Include="Dodge\figures\Triangle.cpp" />
     <ClCompile Include="Dodge\Window.cpp" />
     <ClCompile Include="Dodge\Material.cpp" />
-    <ClCompile Include="Dodge\tiny\ObjectGroup.cpp" />
-    <ClCompile Include="Dodge\tiny\ObjectGroupObj.cpp" />
     <ClCompile Include="Dodge\font\Font.cpp" />
     <ClCompile Include="OpenGL_Snake.cpp" />
     <ClCompile Include="Dodge\tiny\TinyXml.cpp" />
@@ -192,7 +190,6 @@
     <ClCompile Include="Dodge\pawn\Pawn.cpp" />
     <ClCompile Include="Content\Snake\Snake.cpp" />
     <ClCompile Include="Dodge\animator\SpriteAnimationController.cpp" />
-    <ClCompile Include="Content\Snake\SnakeBody.cpp" />
     <ClCompile Include="Dodge\Save.cpp" />
   </ItemGroup>
   <ItemGroup>
